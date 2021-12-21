@@ -23,6 +23,7 @@ export default function Home({ listings = [] }) {
       </Head>
 
       <main className={styles.main}>
+        <h1 className="text-2xl font-bold">Items</h1>
         {listings.map((item, index) => (
           <p key={index}>
             <a href={item.url}>{item.title}</a>
