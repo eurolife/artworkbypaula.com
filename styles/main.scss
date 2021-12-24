@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  > div {
+    height: 100%;
+  }
+}
+h1,
+h2,
+h3,
+h4 {
+  @apply font-bold;
+}
